@@ -34,14 +34,16 @@ O sistema busca oferecer **autenticação segura**, **controle completo de produ
 ## Arquitetura  
 
 O projeto segue o padrão **MVC (Model-View-Controller)** com separação clara de responsabilidades:  
+
+```bash
 projeto/
-├── controllers/ # Lógica de negócio e validações
-├── models/ # Interação com banco de dados
-├── routes/ # Definição de rotas da API
-├── middlewares/ # Autenticação e autorização
-├── uploads/ # Armazenamento de imagens
-├── db.js # Configuração do PostgreSQL
-└── index.js # Execução da API
+├── controllers/     # Lógica de negócio e validações
+├── models/          # Interação com banco de dados
+├── routes/          # Definição de rotas da API
+├── middlewares/     # Autenticação e autorização
+├── uploads/         # Armazenamento de imagens
+├── db.js            # Configuração do PostgreSQL
+└── index.js         # Execução da API
 
 
 ---
