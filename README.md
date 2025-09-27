@@ -44,7 +44,7 @@ projeto/
 ├── uploads/         # Armazenamento de imagens
 ├── db.js            # Configuração do PostgreSQL
 └── index.js         # Execução da API
-
+```
 
 ---
 
