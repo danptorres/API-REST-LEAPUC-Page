@@ -12,14 +12,14 @@ const JWT_SECRET = process.env.JWT_SECRET;
 async function cadastrarProduto(req, res) {
     try {
 
-        // Debug: ver o que chegou no corpo da requisição
+        // Debug
         console.log("📦 Body recebido:", req.body);
 
-        // Debug: ver se o arquivo chegou
+        // Debug
         if (req.file) {
         console.log("🖼️ Arquivo recebido:", req.files);
 
-        // Aqui você pode acessar, por exemplo:
+       
         console.log("Nome original:", req.files.originalname);
         console.log("Nome salvo:", req.files.filename);
         console.log("Caminho temporário:", req.files.paths);
